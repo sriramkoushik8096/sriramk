@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			
+      .float-container {
+    border: 3px solid black;
+    padding: 20px;
+}
+.vertical-nav {
+            width: 200px;
+            background-color: skyblue;
+            color: blue;
+            padding: 10px;
+            border: 3px black;
+        }
+.vertical-nav a {
+            display: flex;
+            color: blue;
+            text-decoration: none;
+            padding: 10px;
+            align-items: centre;
+            border: 3px black;
+        }
+
+        .vertical-nav a:hover {
+            background-color: orange;
+        }
+        .horizontal-nav {
+            background-color:lavender;
+            overflow: hidden;
+            border: 3px black;
+            padding: 10px;
+
+
+        }
+.horizontal-nav a {
+            float: left;
+            display: flex;
+            color: blue;
+            text-align: left;
+            padding: 14px 16px;
+            align-items: flex-end;
+            text-decoration: none;
+            margin: 0px;
+            border: 3px black;
+            
+        }
+
+        .horizontal-nav a:hover {
+            background-color: grey;
+        }
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+}  
+		</style>
+	</head>
+	
+	<body>
+		<div >
+      <h1>Vertical navigation bar</h1>
+			<div class="float-child vertical-nav">
+        <a href="#">Home</a><br>
+        <a href="#">Java</a><br>
+        <a href="#">CSS</a><br>
+        <a href="#">HTML</a><br>
+        <a href="#">Bootstrap</a><br>
+    
+      </div>
+
+      <h1>Horizontal navigation bar</h1>
+        <div class="horizontal-nav ">
+          <a href="#">Home</a>
+          <a href="#">Java</a>
+          <a href="#">CSS</a>
+          <a href="#">HTML</a>
+      </div>
+		</div>
+	</body>
+</html>				
